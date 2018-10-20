@@ -1083,7 +1083,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: e87c06f29c815ec478fbb52c14fdab68, type: 2}
+  - {fileID: 2100000, guid: b04be2d61e55cf342b1dea4db728f8f9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1235,6 +1235,7 @@ GameObject:
   - component: {fileID: 257194260}
   - component: {fileID: 257194262}
   - component: {fileID: 257194261}
+  - component: {fileID: 257194263}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -1302,6 +1303,17 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &257194263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 257194259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 827127572d03a704aba8a2d7483f4fd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &262885929
 GameObject:
   m_ObjectHideFlags: 0
@@ -3648,7 +3660,6 @@ GameObject:
   - component: {fileID: 1049284634}
   - component: {fileID: 1049284633}
   - component: {fileID: 1049284632}
-  - component: {fileID: 1049284640}
   - component: {fileID: 1049284639}
   m_Layer: 0
   m_Name: player
@@ -3778,17 +3789,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6063e727c281d5945bdb282881d9140e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1049284640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1049284631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 827127572d03a704aba8a2d7483f4fd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1066465106
