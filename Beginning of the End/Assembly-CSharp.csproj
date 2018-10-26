@@ -61,6 +61,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\skripts\DoorDevice.cs" />
+    <Compile Include="Assets\skripts\DoorOpenDevice.cs" />
     <Compile Include="Assets\skripts\FPSInput.cs" />
     <Compile Include="Assets\skripts\HalloWorld.cs" />
     <Compile Include="Assets\skripts\Look.cs" />
@@ -69,6 +71,7 @@
     <Compile Include="Assets\skripts\SceneController.cs" />
     <Compile Include="Assets\skripts\shoot.cs" />
     <Compile Include="Assets\skripts\WanderingAI.cs" />
+    <None Include="Assets\RainEntertainment\FantasyMonster2\Priest Pack\readMe.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Алексей/Desktop/Beginning of the End/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
