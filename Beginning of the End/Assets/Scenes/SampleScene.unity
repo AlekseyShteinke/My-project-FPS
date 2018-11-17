@@ -2242,18 +2242,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreLabel: {fileID: 1362648303}
   itemName: key
---- !u!114 &413570096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 413570094}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ceee5b5da465ba45ba724f246e2b229, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemName: key
 --- !u!65 &413570097
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -5,19 +5,22 @@ using UnityEngine.UI;
 public class NumberOfKey : MonoBehaviour {
     public Text scoreLabel;
     public string itemName;
-    private void OnTriggerEnter(Collider other)
+    private int count;
+    void Start ()
+    {
+        count = 0;
+        SetScoreLabel ();
+    }
+
+    void OnTriggerEnter(Collider other)
     {
         Debug.Log("Item collected:" + itemName);
         Destroy(this.gameObject);
-       
+        count = count + 1;
+        SetScoreLabel ();
     }
-    void Start()
+    void SetScoreLabel ()
     {
-        float scoreLabel = 0f;
+        scoreLabel.text = "" + count.ToString ();
     }
-    void Update()
-    {
-        scoreLabel = "1";
-    }
-   
 }
