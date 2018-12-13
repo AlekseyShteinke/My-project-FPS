@@ -3913,6 +3913,8 @@ GameObject:
   - component: {fileID: 818486038}
   - component: {fileID: 818486037}
   - component: {fileID: 818486036}
+  - component: {fileID: 818486039}
+  - component: {fileID: 818486040}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -3927,8 +3929,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 818486034}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.091135, y: -14.4, z: 12.340704}
-  m_LocalScale: {x: 12, y: 12, z: 12}
+  m_LocalPosition: {x: -11.091135, y: -14.11, z: 12.341}
+  m_LocalScale: {x: 14.4799185, y: 14.4799185, z: 14.4799185}
   m_Children: []
   m_Father: {fileID: 401846872}
   m_RootOrder: 0
@@ -3960,7 +3962,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: a82c539e55fe7474f9d3e7bef4c934ad, type: 2}
+  - {fileID: 2100000, guid: 4622b6266fb096c48a9d7280c7db52b7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3987,6 +3989,36 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 818486034}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &818486039
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 818486034}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5dc4af006fbf97e41ab7d30d5787e7f1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &818486040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 818486034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d3346a1ae95114592fe4c0d995b27e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.5
 --- !u!1001 &834477016
 Prefab:
   m_ObjectHideFlags: 0
@@ -13124,7 +13156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  obstacleRange: 5
+  obstacleRange: 11.4
   fireballPrefab: {fileID: 1682747973560594, guid: 93a7bbde524da594b91ffea67d5ef50f,
     type: 2}
 --- !u!65 &1744604837
@@ -13138,7 +13170,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.79, y: 1.09, z: 0.58}
-  m_Center: {x: 0.03, y: 0.64, z: 0}
+  m_Center: {x: -0.02, y: 0.64, z: 0}
 --- !u!54 &1744604838
 Rigidbody:
   m_ObjectHideFlags: 0
